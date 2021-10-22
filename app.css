@@ -149,15 +149,7 @@ body {
         border-radius: 0;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
-        width: 100%;
-        opacity: 0.5;
-    }
-
-    .images {
-        min-width: 50%;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        opacity: 0.6;
+        width: 50%;
     }
 
     .info {
@@ -184,7 +176,7 @@ body {
 }
 
 @media (min-width: 1050px) {
-    .images {
+    .card-image-desktop {
         max-height: 363px;
         min-width: 50%;
     }
